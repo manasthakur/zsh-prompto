@@ -5,12 +5,19 @@ Zsh-Prompto is a simple-and-sweet, lightweight-and-useful prompt for zsh users.
 ## Features:
 
 * Current directory
+
 ![current-directory](./screenshots/current-directory.png)
+
 * Name of git branch
+
 ![git-branch](./screenshots/git-branch.png)
+
 * Non-zero command-exit indicator
+
 ![failed-command](./screenshots/failed-command.png)
+
 * Number of background jobs
+
 ![bg-jobs](./screenshots/bg-jobs.png)
 
 ## Installation
