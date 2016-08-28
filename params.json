@@ -1,6 +1,0 @@
-{
-  "name": "Zsh-Prompto",
-  "tagline": "A simple, lightweight, useful prompt for zsh.",
-  "body": "# Zsh-Prompto\r\n\r\nZsh-Prompto is a simple-and-sweet, lightweight-and-useful prompt for zsh users.\r\n\r\n## Features:\r\n\r\n* Current directory\r\n\r\n![current-directory](./screenshots/current-directory.png)\r\n\r\n* Name of git branch\r\n\r\n![git-branch](./screenshots/git-branch.png)\r\n\r\n* Non-zero command-exit indicator\r\n\r\n![failed-command](./screenshots/failed-command.png)\r\n\r\n* Number of background jobs\r\n\r\n![bg-jobs](./screenshots/bg-jobs.png)\r\n\r\n## Installation\r\n\r\n* Clone the `zsh-prompto` repository:\r\n    ```\r\n    git clone https://github.com/manasthakur/zsh-prompto.git\r\n    ```\r\n\r\n* Symlink the code file:\r\n    ```\r\n    mkdir -p ~/.zsh; ln -sf <PATH TO zsh-prompto>/zsh-prompto.zsh ~/.zsh/zsh-prompto.zsh\r\n    ```\r\n\r\n* To update zsh-prompto, just pull the latest version:\r\n    ```\r\n    cd <PATH TO zsh-prompto>; git pull\r\n    ```\r\n\r\nFeel free to ping me for any queries/suggestions.\r\n",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
