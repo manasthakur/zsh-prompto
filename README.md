@@ -21,6 +21,10 @@ NOTE: The theme looks good on light backgrounds; please consider changing the co
 
 ![bg-jobs](screenshots/bg-jobs.png)
 
+* Username and hostname over SSH
+
+![ssh](screenshots/ssh.png)
+
 ## Installation
 
 * Clone the `zsh-prompto` repository:
