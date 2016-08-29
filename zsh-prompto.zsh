@@ -16,7 +16,7 @@ function git_branch() {
 }
 
 function bg_jobs() {
-    local bg_status=%{$fg[yellow]%}%(1j.↓%j .)
+    local bg_status="%{$fg[yellow]%}%(1j.↓%j .)"
     echo $bg_status
 }
 
