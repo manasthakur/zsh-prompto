@@ -2,7 +2,9 @@
 
 function ssh_connection() {
     if [[ -n $SSH_CONNECTION ]]; then
-        echo "%{$fg_faint[black]%}%n%{$fg[black]%}@%m "
+        echo "[%{$fg_faint[black]%}%n%{$fg[black]%}@%m%{$reset_color%}] "
+    else
+        echo " "
     fi
 }
 
@@ -16,10 +18,10 @@ function git_branch() {
 }
 
 function bg_jobs() {
-    local bg_status=%{$fg[yellow]%}%(1j.↓%j .)
+    local bg_status="%{$fg[yellow]%}%(1j.↓%j .)"
     echo $bg_status
 }
 
-PROMPT=' $(ssh_connection)%{$fg[cyan]%}%~ $(bg_jobs)%{$fg[red]%}❯%{$reset_color%} '
+PROMPT='$(ssh_connection)%{$fg[cyan]%}%~ $(bg_jobs)%{$fg[red]%}❯%{$reset_color%} '
 RPROMPT='$(return_status)%{$fg[black]%}$(git_branch)%{$reset_color%}'
 
