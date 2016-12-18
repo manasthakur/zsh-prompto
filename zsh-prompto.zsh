@@ -2,7 +2,7 @@
 
 function ssh_connection() {
     if [[ -n $SSH_CONNECTION ]]; then
-        echo "[%{$fg_faint[black]%}%n%{$fg[black]%}@%m%{$reset_color%}] "
+        echo "[%{$fg_faint[black]%}%n@%m%{$reset_color%}] "
     else
         echo " "
     fi
@@ -23,5 +23,5 @@ function bg_jobs() {
 }
 
 PROMPT='$(ssh_connection)%{$fg[cyan]%}%~ $(bg_jobs)%{$fg[red]%}❯%{$reset_color%} '
-RPROMPT='$(return_status)%{$fg[black]%}$(git_branch)%{$reset_color%}'
+RPROMPT='$(return_status)%{$fg_faint[black]%}$(git_branch)%{$reset_color%}'
 

@@ -2,8 +2,6 @@
 
 Zsh-Prompto is a simple-and-sweet, lightweight-and-useful prompt for zsh users.
 
-NOTE: Use `zsh-prompto-darkbg.sh` for dark backgrounds.
-
 ## Features:
 
 * Current directory
