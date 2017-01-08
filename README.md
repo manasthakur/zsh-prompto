@@ -41,7 +41,7 @@ Zsh-Prompto is a simple-and-sweet, lightweight-and-useful prompt for zsh users.
     cd <PATH TO zsh-prompto>; git pull
     ```
 
-[Star this repository](https://github.com/manasthakur/vim-sessionist/) on GitHub if you like the plugin.
+[Star this repository](https://github.com/manasthakur/zsh-prompto/) on GitHub if you like the prompt.
 Feel free to send bricks and bouquets to `manasthakur17@gmail.com`.
 
 ## License
